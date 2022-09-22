@@ -8,12 +8,12 @@
     'paragraph',
     'repliesNum'
 ])
-<div class="bg-white p-5">
+<div class="bg-white lg:p-5 md:p-7">
     <div class="text-center">
         <h3 class="text-2xl pb-3">{{ $h3 }}</h3>
         <h4 class="pb-5">{{ $h4 }}, <span class="text-gray-400">{{ $date }}</span></h4>
     </div>
-    <img src="img/{{ $url_img }}" alt="picture card1">
+    <img src="img/{{ $url_img }}" alt="picture card1" class="md:w-full">
     <p class="py-5"><span class="font-bold text-black">{{ $titledesc }}</span> {{ $description }}</p>
     <p class="pb-7">{{ $paragraph }}</p>
     <div class="flex justify-between">
