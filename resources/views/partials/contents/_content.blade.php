@@ -59,39 +59,33 @@
         <div class="mb-7">
            <x-section2Right title="Tags">
               <div class="bg-white p-2">
-                <div class="mb-3">
-                    <a href="" class="bg-gray-200 pr-2 mb-5">
-                       <span class="border-solid border-r-2 border-white pr-2 bg-black text-white px-2 text-md">Fashion</span> 
-                       <span class="border-solid border-r-2 border-white pr-2 text-xs">NewYork</span> 
-                       <span class="border-solid border-r-2 border-white pr-2 text-xs">LondonHats</span>
-                       <span class="border-solid border-r-2 border-white pr-2 text-xs">Norway</span>
-                       <span class="border-solid border-r-2 border-white pr-2 text-xs">Sweaters</span>
-                       <span class="text-xs">Ideas</span>
+                    <a href="" class="pr-2 py-4">
+                       <span class="pr-2 bg-black text-white px-2 lg:text-lg md:text-xl">Fashion</span> 
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">NewYork</span> 
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">LondonHats</span>
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">Norway</span>
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">Sweaters</span>
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">Ideas</span>
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">Deals</span> 
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">Accessories</span> 
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">News</span>
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">Clothing</span>
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">Shopping</span>
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">Jeans</span>
+                       <span class="bg-gray-200 px-2 lg:text-xs md:text-lg">Trends</span>
                     </a>
-                </div>
-                <div>
-                    <a href="" class="bg-gray-200 pr-2 text-xs ">
-                       <span class="border-solid border-r-2 border-white pr-2">Deals</span> 
-                       <span class="border-solid border-r-2 border-white pr-2">Accessories</span> 
-                       <span class="border-solid border-r-2 border-white pr-2">News</span>
-                       <span class="border-solid border-r-2 border-white pr-2">Clothing</span>
-                       <span class="border-solid border-r-2 border-white pr-2">Shopping</span>
-                       <span class="border-solid border-r-2 border-white pr-2">Jeans</span>
-                       <span class="">Trends</span>
-                    </a>
-                </div>
               </div>
           </x-section2Right>
         </div>
         <div class="mb-7">
            <x-section2Right title="Inspiration">
-              <div class=" flex gap-3 p-4">
-                <img src="img/jeans.jpeg" alt="" class="w-36">
-                <img src="img/avatar_hat.jpeg" alt="" class="w-36">
+              <div class=" flex gap-3 lg:p-4 md:p-7">
+                <img src="img/jeans.jpeg" alt="" class="lg:w-36 md:max-w-xs">
+                <img src="img/avatar_hat.jpeg" alt="" class="lg:w-36 md:max-w-xs">
               </div>
-              <div class=" flex gap-3 px-4 pb-4">
-                <img src="img/team1.jpeg" alt="" class="w-36">
-                <img src="img/team4.jpeg" alt="" class="w-36">
+              <div class=" flex gap-3 lg:px-4 lg:pb-4">
+                <img src="img/team1.jpeg" alt="" class="lg:w-36 md:max-w-xs">
+                <img src="img/team4.jpeg" alt="" class="lg:w-36 md:max-w-xs">
               </div>
           </x-section2Right>
         </div>
