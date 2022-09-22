@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald',sans-serif;
+    background: rgb(235, 234, 234);
+    padding: 0px 0px 15px 0px;
 }

@@ -14,11 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.home');
-})->name("home");
-Route::get('/offre-du-moment', function () {
-    return view('pages.offre');
-})->name("offre");
-Route::get('/voir-voiture', function () {
-    return view('pages.show');
-})->name("show");
+    return view('welcome');
+})->name("welcome");
